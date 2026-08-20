@@ -6,9 +6,9 @@
 
 Prompts prácticos de vídeo con IA para cine, anuncios de producto, UGC, diálogo, VFX, animación, comida, viajes, educación y redes sociales.
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · **Español**
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · **Español** · [15 idiomas](docs/LANGUAGES.md)
 
-[24 prompts](prompts/README.md) · [Guía de prompting](docs/PROMPT-GUIDE.md) · [Audio multilingüe](docs/MULTILINGUAL-AUDIO.md)
+[24 prompts](prompts/README.md) · [Guía de prompting](docs/PROMPT-GUIDE.md) · [Audio multilingüe](docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI](docs/FLAQ-AI.md)
 
 </div>
 
@@ -61,3 +61,7 @@ Consulta el [catálogo completo](prompts/README.md).
 Todos los textos y prompts se han creado para este proyecto; no reutilizan entradas ni miniaturas de terceros. No uses rostros, voces, marcas, personajes o música sin permiso. Revisa afirmaciones publicitarias, datos educativos, seguridad, arquitectura, artesanía y contexto cultural antes de publicar.
 
 Fuentes oficiales: [anuncio de Kling AI 3.0 por Kuaishou](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be) · [guía oficial de Kling Video 3.0](https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide)
+
+## Acerca de FLAQ.AI
+
+[FLAQ.AI](https://flaq.ai/) es una plataforma web y una capa de API unificada para flujos con modelos de imagen, vídeo y lenguaje. Actualmente ofrece páginas para [Kling 3.0 Standard Text-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/) e [Image-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/). Este repositorio no afirma que Kling 4.0 esté disponible en FLAQ.AI. Comprueba en las páginas en vivo los nombres, controles, precios, duración, resolución y esquema de API antes de producir.

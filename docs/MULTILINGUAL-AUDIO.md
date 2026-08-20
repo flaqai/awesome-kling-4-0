@@ -1,6 +1,6 @@
 # Multilingual Audio & Dialogue for Kling Video
 
-[Home](../README.md) · [Prompt catalog](../prompts/README.md) · [Prompting guide](PROMPT-GUIDE.md)
+[Home](../README.md) · [Prompt catalog](../prompts/README.md) · [15-language directory](LANGUAGES.md) · [Prompting guide](PROMPT-GUIDE.md) · [FLAQ.AI workflow](FLAQ-AI.md)
 
 Kling Video 3.0’s official documentation lists native dialogue support for **Chinese, English, Japanese, Korean and Spanish**, including mixed-language scenes. This guide shows a compact, speaker-safe way to write those prompts. Treat pronunciation and exact wording as output to verify, especially for names, numbers and regulated claims.
 

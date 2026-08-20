@@ -84,6 +84,7 @@ Until Kuaishou officially announces Kling 4.0, do not describe any “4.0” spe
 - Adapt punctuation and natural phrasing for the target language.
 - Do not add model claims absent from the source guide.
 - Ask a fluent reviewer to check dialogue tone and cultural context.
+- Keep documentation-language claims separate from native speech support; use the [language matrix](docs/LANGUAGES.md).
 
 ## Pull request scope
 

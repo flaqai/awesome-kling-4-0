@@ -6,9 +6,9 @@
 
 영화, 제품 광고, UGC, 대화, VFX, 애니메이션, 음식, 여행, 교육 및 소셜 영상용 실전 AI 비디오 프롬프트 모음입니다.
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja-JP.md) · **한국어** · [Español](README.es-ES.md)
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · **한국어** · [Español](README.es-ES.md) · [15개 언어](docs/LANGUAGES.md)
 
-[24개 프롬프트](prompts/README.md) · [프롬프트 가이드](docs/PROMPT-GUIDE.md) · [다국어 오디오](docs/MULTILINGUAL-AUDIO.md)
+[24개 프롬프트](prompts/README.md) · [프롬프트 가이드](docs/PROMPT-GUIDE.md) · [다국어 오디오](docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI](docs/FLAQ-AI.md)
 
 </div>
 
@@ -60,3 +60,7 @@
 모든 설명과 프롬프트는 이 프로젝트를 위해 새로 작성되었으며, 타사 프롬프트나 썸네일을 복제하지 않습니다. 허가 없는 인물의 얼굴·목소리, 브랜드, 캐릭터, 음악을 사용하지 마세요. 광고 문구, 교육 정보, 건축·공예·지역 문화는 게시 전에 전문가 검토가 필요합니다.
 
 공식 근거: [Kuaishou Kling AI 3.0 발표](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be) · [Kling Video 3.0 공식 가이드](https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide)
+
+## FLAQ.AI 소개
+
+[FLAQ.AI](https://flaq.ai/)는 이미지·비디오·언어 모델을 브라우저에서 시험하고 통합 API를 통해 제작 시스템에 연결할 수 있는 플랫폼입니다. 현재 [Kling 3.0 Standard Text-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/)와 [Image-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/) 페이지를 제공합니다. 이 저장소는 FLAQ.AI에서 Kling 4.0을 사용할 수 있다고 주장하지 않습니다. 모델명, 가격, 길이, 해상도와 API 스키마는 사용 전에 실시간 페이지에서 확인하세요.

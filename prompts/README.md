@@ -1,6 +1,6 @@
 # Kling AI Video Prompt Catalog
 
-[Home](../README.md) · [中文指南](../README.zh-CN.md) · [Prompting guide](../docs/PROMPT-GUIDE.md) · [Multilingual audio](../docs/MULTILINGUAL-AUDIO.md)
+[Home](../README.md) · [中文指南](../README.zh-CN.md) · [15 languages](../docs/LANGUAGES.md) · [Prompting guide](../docs/PROMPT-GUIDE.md) · [Multilingual audio](../docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI workflow](../docs/FLAQ-AI.md)
 
 This catalog contains **24 original production prompts** grouped into six collections and twelve practical use cases. Every prompt can be copied as-is or treated as a scaffold. Replace `{variables}`, select the matching input mode, and remove any instruction that is not visible or audible in your intended clip.
 
@@ -58,3 +58,7 @@ Every entry declares:
 ## Responsible adaptation
 
 Use generic or licensed products, actors, music and locations. Do not imitate a living artist, clone a person’s face or voice, or reproduce a protected character or brand identity without permission. Product claims and educational facts require independent review.
+
+## Try the prompts on FLAQ.AI
+
+FLAQ.AI currently provides browser and API entry points for Kling 3.0 Standard [text-to-video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/) and [image-to-video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/). This catalog does not claim Kling 4.0 availability. Check the live model page for current settings, prices and API parameters, then follow the [FLAQ.AI workflow guide](../docs/FLAQ-AI.md).

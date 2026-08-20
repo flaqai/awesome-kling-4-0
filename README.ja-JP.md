@@ -6,9 +6,9 @@
 
 映画、商品広告、UGC、会話、VFX、アニメ、料理、旅行、教育、SNS向けの実用的なAI動画プロンプト集。
 
-[English](README.md) · [简体中文](README.zh-CN.md) · **日本語** · [한국어](README.ko-KR.md) · [Español](README.es-ES.md)
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · **日本語** · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [15言語すべて](docs/LANGUAGES.md)
 
-[24本のプロンプト](prompts/README.md) · [詳細ガイド](docs/PROMPT-GUIDE.md) · [多言語音声](docs/MULTILINGUAL-AUDIO.md)
+[24本のプロンプト](prompts/README.md) · [詳細ガイド](docs/PROMPT-GUIDE.md) · [多言語音声](docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI](docs/FLAQ-AI.md)
 
 </div>
 
@@ -60,3 +60,7 @@
 本文とプロンプトは本プロジェクト向けの独自制作で、第三者のプロンプトやサムネイルを転載していません。許可のない人物・声・ブランド・キャラクター・音楽は使用しないでください。広告表現、教育内容、建築・工芸・地域文化は公開前に専門的な確認が必要です。
 
 公式情報: [Kuaishou Kling AI 3.0 発表](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be) · [Kling Video 3.0 公式ガイド](https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide)
+
+## FLAQ.AIについて
+
+[FLAQ.AI](https://flaq.ai/) は、画像・動画・言語モデルをブラウザで試し、統合APIを通じて制作フローへ展開できるプラットフォームです。現在は [Kling 3.0 Standard Text-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/) と [Image-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/) のページを提供しています。本リポジトリは、FLAQ.AIでKling 4.0が利用可能だとは主張しません。モデル名、料金、尺、解像度、API仕様は利用前にライブページで確認してください。

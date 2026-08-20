@@ -1,6 +1,6 @@
 # Kling Video Prompt Engineering Guide
 
-[Home](../README.md) · [Prompt catalog](../prompts/README.md) · [Multilingual audio](MULTILINGUAL-AUDIO.md)
+[Home](../README.md) · [Prompt catalog](../prompts/README.md) · [15 languages](LANGUAGES.md) · [Multilingual audio](MULTILINGUAL-AUDIO.md) · [FLAQ.AI workflow](FLAQ-AI.md)
 
 This guide turns an idea into a prompt that directs not just appearance, but also **time, motion, camera, continuity and audio**. It is written for the verified Kling 3.0 toolset and is structured to remain useful when an official Kling 4.0 model becomes available.
 
