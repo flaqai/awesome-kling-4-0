@@ -8,15 +8,15 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · **한국어** · [Español](README.es-ES.md) · [15개 언어](docs/LANGUAGES.md)
 
-[24개 프롬프트](prompts/README.md) · [프롬프트 가이드](docs/PROMPT-GUIDE.md) · [다국어 오디오](docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI](docs/FLAQ-AI.md)
+[40개 프롬프트](prompts/README.md) · [프롬프트 가이드](docs/PROMPT-GUIDE.md) · [다국어 오디오](docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI](docs/FLAQ-AI.md)
 
 </div>
 
-> **모델 상태(2026-08-20):** Kling 4.0은 공식 발표되지 않았습니다. 확인 가능한 최신 메이저 버전은 2026년 2월 5일 공개된 Kling AI 3.0입니다. 이 저장소는 공식 3.0 기능을 기준으로 만든 독립적인 “4.0-ready” 커뮤니티 프리뷰이며, 확인되지 않은 4K 비디오·가격·API·길이를 공식 사양처럼 주장하지 않습니다.
+> **모델 상태(2026-08-26):** Kling 4.0은 공식 발표되지 않았습니다. 확인 가능한 최신 메이저 버전은 2026년 2월 5일 공개된 Kling AI 3.0입니다. 이 저장소는 공식 3.0 기능을 기준으로 만든 독립적인 “4.0-ready” 커뮤니티 프리뷰이며, 확인되지 않은 4K 비디오·가격·API·길이를 공식 사양처럼 주장하지 않습니다.
 
 ## 포함된 내용
 
-- 12가지 실무 시나리오, 24개의 새로 작성된 완성형 프롬프트
+- 10개 제작 컬렉션, 40개의 새로 작성된 완성형 프롬프트
 - 텍스트-투-비디오, 이미지-투-비디오, 시작/종료 프레임, 피사체 참조 전략
 - 초 단위 샷, 카메라, 연기, 물리, 오디오 및 오류 방지 조건
 - 한국어, 중국어, 영어, 일본어, 스페인어 대화 패턴

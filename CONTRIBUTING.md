@@ -2,6 +2,16 @@
 
 Thanks for helping build a practical, original and evidence-aware Kling video prompt library.
 
+## Choose the easiest contribution path
+
+| You have… | Best route |
+|---|---|
+| A complete original recipe | [Submit a prompt issue](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=prompt.yml) |
+| A useful scenario but no finished prompt | [Request a missing scenario](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=request.yml) |
+| A tested recipe, translation or documentation fix | Open a focused pull request |
+
+Untested ideas are welcome when marked **recipe-only**. Tested submissions should record the model, mode, date, duration, ratio, input roles and failure notes. Capability corrections need an official primary source.
+
 ## What we accept
 
 - Original prompts for a clearly named real-world use case.
@@ -12,7 +22,7 @@ Thanks for helping build a practical, original and evidence-aware Kling video pr
 
 ## Originality requirement
 
-Submit only material you wrote or are authorized to license under this repository’s MIT License. Do not copy prompt entries, descriptions, thumbnails, videos, author lists or promotional links from galleries, social posts or other repositories. Inspiration from a broad scenario category is fine; wording, story, characters, shot design, props and examples must be independently created.
+Submit only material you wrote or are authorized to license under this repository’s MIT License. Do not copy prompt entries, descriptions, thumbnails, videos, author lists or promotional links from galleries, social posts or other repositories. Inspiration from a broad scenario category is fine; wording, story, characters, shot design, props and examples must be independently created. See [Curation, Inspiration and Originality](docs/CURATION.md) for the distinction between a coverage reference and a close rewrite.
 
 Do not submit:
 
@@ -55,6 +65,14 @@ Do not submit:
 
 **Failure check:** ...
 ````
+
+## Review labels
+
+- **Recipe-only:** structurally reviewed but not presented as a benchmark.
+- **Community-tested:** includes enough setup and failure notes for another person to repeat the test.
+- **Source-verified:** a capability or compatibility statement linked to current official documentation.
+
+A preview image or video is optional. If supplied, include alt text, input/reference roles, generation notes and a license compatible with the repository. Reviewers may accept the prompt without the media.
 
 ## Capability claims
 

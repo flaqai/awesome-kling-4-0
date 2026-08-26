@@ -1,0 +1,55 @@
+name: Request a missing scenario
+description: Suggest a practical workflow the prompt library should cover
+title: "[Request] "
+labels:
+  - prompt-request
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping identify a useful gap. Describe the production problem, not a prompt copied from another gallery.
+  - type: input
+    id: outcome
+    attributes:
+      label: Desired video outcome
+      placeholder: "Example: a 9:16 product return tutorial with stable hands and packaging"
+    validations:
+      required: true
+  - type: dropdown
+    id: route
+    attributes:
+      label: Likely generation route
+      options:
+        - Text-to-video
+        - Image-to-video
+        - Start and end frames
+        - Multi-reference / elements
+        - Video editing or extension
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs you expect to have
+      description: List subject, product, location, image, video, audio or brand references and who owns them.
+  - type: textarea
+    id: hard_part
+    attributes:
+      label: Hardest continuity or failure risk
+      placeholder: "Example: label drift, hand contact, route continuity, exact speaker, unsafe action"
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: What would make the result useful?
+      description: Include duration, ratio, platform, language, review needs and any constraints.
+    validations:
+      required: true
+  - type: checkboxes
+    id: originality
+    attributes:
+      label: Originality
+      options:
+        - label: This request describes my own production need and does not paste someone else’s prompt or private media.
+          required: true

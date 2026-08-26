@@ -8,15 +8,15 @@ Prompts prácticos de vídeo con IA para cine, anuncios de producto, UGC, diálo
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · **Español** · [15 idiomas](docs/LANGUAGES.md)
 
-[24 prompts](prompts/README.md) · [Guía de prompting](docs/PROMPT-GUIDE.md) · [Audio multilingüe](docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI](docs/FLAQ-AI.md)
+[40 prompts](prompts/README.md) · [Guía de prompting](docs/PROMPT-GUIDE.md) · [Audio multilingüe](docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI](docs/FLAQ-AI.md)
 
 </div>
 
-> **Estado del modelo (20-08-2026):** Kling 4.0 no ha sido anunciado oficialmente. La versión principal verificable más reciente es Kling AI 3.0, publicada el 5 de febrero de 2026. Este repositorio es una vista previa comunitaria e independiente «4.0-ready», basada en funciones confirmadas de 3.0. No presenta como oficiales datos no verificados sobre vídeo 4K, precios, API o duración.
+> **Estado del modelo (26-08-2026):** Kling 4.0 no ha sido anunciado oficialmente. La versión principal verificable más reciente es Kling AI 3.0, publicada el 5 de febrero de 2026. Este repositorio es una vista previa comunitaria e independiente «4.0-ready», basada en funciones confirmadas de 3.0. No presenta como oficiales datos no verificados sobre vídeo 4K, precios, API o duración.
 
 ## Qué incluye
 
-- 24 prompts completos y originales para 12 escenarios de producción.
+- 40 prompts completos y originales en 10 colecciones de producción.
 - Flujos de texto a vídeo, imagen a vídeo, fotograma inicial/final y referencia de sujeto.
 - Dirección por segundos: plano, cámara, actuación, física, sonido y restricciones.
 - Patrones de diálogo en español, chino, inglés, japonés y coreano.

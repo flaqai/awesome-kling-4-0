@@ -25,7 +25,30 @@ body:
         - Animation, fashion, music or dance
         - Food, travel, architecture or craft
         - Education, documentary or social
+        - Reference, editing or motion transfer
+        - Livestream, technology or automotive
+        - Industrial or manufacturing
+        - Talking head, digital human or pet
+        - Gaming, astronomy or production tool
         - Other
+    validations:
+      required: true
+  - type: input
+    id: title_and_outcome
+    attributes:
+      label: Prompt title and intended outcome
+      placeholder: "Example: Copper Compass Match Cut — preserve one object across four environments"
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence_status
+    attributes:
+      label: Submission status
+      description: Recipe-only is welcome; choose the strongest status you can support.
+      options:
+        - Recipe-only (not yet tested)
+        - Community-tested (result notes supplied)
+        - Source-verified capability correction
     validations:
       required: true
   - type: input
@@ -45,11 +68,14 @@ body:
     id: result
     attributes:
       label: Result and failure notes
-      description: What worked, what failed, and what should reviewers inspect?
-    validations:
-      required: true
+      description: If tested, record what worked, what failed, date, duration, ratio and what reviewers should inspect. Write “not tested” for recipe-only submissions.
   - type: textarea
     id: sources
     attributes:
       label: Sources for capability or factual claims
       description: Link official documentation for model claims and appropriate references for educational facts.
+  - type: textarea
+    id: assets
+    attributes:
+      label: Optional preview and input assets
+      description: Link only media you own or can license under compatible terms. Describe what each reference controls.

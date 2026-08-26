@@ -2,7 +2,7 @@
 
 # Awesome Kling 4.0 Prompts — Deutscher Leitfaden
 
-24 eigenständige, produktionsnahe KI-Videoprompts für Film, Werbung, UGC, Dialog, VFX, Animation, Essen, Reisen, Bildung und Social Media.
+40 eigenständige, produktionsnahe KI-Videoprompts für Film, Werbung, UGC, Dialog, VFX, Animation, Essen, Reisen, Bildung und Social Media.
 
 [English](README.md) · [简体中文](README.zh-CN.md) · **Deutsch** · [15 Sprachen](docs/LANGUAGES.md)
 
@@ -10,7 +10,7 @@
 
 </div>
 
-> **Modellstatus — 20.08.2026:** Kling 4.0 wurde nicht offiziell angekündigt. Die neueste überprüfbare Hauptversion ist Kling AI 3.0. Dieses Repository ist eine unabhängige „4.0-ready“-Community-Vorschau auf Basis bestätigter 3.0-Funktionen und macht keine unbestätigten Angaben zu 4K-Video, Preisen, API oder Dauer.
+> **Modellstatus — 26.08.2026:** Kling 4.0 wurde nicht offiziell angekündigt. Die neueste überprüfbare Hauptversion ist Kling AI 3.0. Dieses Repository ist eine unabhängige „4.0-ready“-Community-Vorschau auf Basis bestätigter 3.0-Funktionen und macht keine unbestätigten Angaben zu 4K-Video, Preisen, API oder Dauer.
 
 ## Kurzstruktur
 

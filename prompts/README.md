@@ -2,9 +2,9 @@
 
 [Home](../README.md) · [中文指南](../README.zh-CN.md) · [15 languages](../docs/LANGUAGES.md) · [Prompting guide](../docs/PROMPT-GUIDE.md) · [Multilingual audio](../docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI workflow](../docs/FLAQ-AI.md)
 
-This catalog contains **24 original production prompts** grouped into six collections and twelve practical use cases. Every prompt can be copied as-is or treated as a scaffold. Replace `{variables}`, select the matching input mode, and remove any instruction that is not visible or audible in your intended clip.
+This catalog contains **40 original production prompts** grouped into ten collections. It spans narrative, commerce, reference control, editing, mobility, industrial, education and production-tool workflows. Every prompt can be copied as-is or treated as a scaffold. Replace `{variables}`, select the matching input mode, and remove any instruction that is not visible or audible in your intended clip.
 
-> **Compatibility note:** The repository targets a future official Kling 4.0 release, but the capability labels are grounded in verified Kling Video 3.0 behavior as of 2026-08-20. Settings and availability can vary by region, account and model mode.
+> **Compatibility note:** The repository targets a future official Kling 4.0 release, but the capability labels are grounded in verified Kling Video 3.0 behavior as of 2026-08-26. Settings and availability can vary by region, account and model mode.
 
 ## Choose by goal
 
@@ -34,6 +34,22 @@ This catalog contains **24 original production prompts** grouped into six collec
 | Nature documentary | [The Night Pollinator](education-documentary-social.md#2-the-night-pollinator) | Text-to-video or start image |
 | Seamless meme loop | [Infinite Umbrella Problem](education-documentary-social.md#3-the-infinite-umbrella-problem) | Start/end same frame |
 | Public-interest mini story | [Thirty Seconds of Shade](education-documentary-social.md#4-thirty-seconds-of-shade) | Location + character references |
+| Object-centered match cut | [Copper Compass Across Four Worlds](reference-editing-and-control.md#1-copper-compass-across-four-worlds) | Object + environment references |
+| Multi-image character scene | [Sunday Table, Three Generations](reference-editing-and-control.md#2-sunday-table-three-generations) | Three character + room references |
+| Motion-reference transfer | [Museum Guide Motion Transfer](reference-editing-and-control.md#3-museum-guide-motion-transfer) | Character + motion video reference |
+| Weather edit and extension | [Rainy Platform Revision](reference-editing-and-control.md#4-rainy-platform-revision-and-extension) | Existing video + continuation brief |
+| E-commerce livestream | [Foldable Kettle Live Demo](commerce-tech-mobility-industrial.md#1-foldable-kettle-live-demo) | Host + product references, single take |
+| Gadget assembly | [Open-Ear Headset Assembly Proof](commerce-tech-mobility-industrial.md#2-open-ear-headset-assembly-proof) | Product reference + start/end frames |
+| Automotive film | [Electric Hatchback, Quiet Departure](commerce-tech-mobility-industrial.md#3-electric-hatchback-quiet-departure) | Vehicle + cabin references |
+| Industrial process | [Cobot Packs the Blue Valve](commerce-tech-mobility-industrial.md#4-cobot-packs-the-blue-valve) | Station + object references |
+| Talking-head education | [Architecture Lesson](people-pets-learning-culture.md#1-the-forty-second-architecture-lesson) | Presenter reference + single take |
+| Multilingual digital human | [Library Helper](people-pets-learning-culture.md#2-multilingual-library-helper) | Approved avatar + custom background |
+| Pet adoption profile | [Pippa's Adoption Portrait](people-pets-learning-culture.md#3-pippas-adoption-portrait) | Pet + handler + room references |
+| Child-safe science | [Pepper and Soap Science Table](people-pets-learning-culture.md#4-pepper-and-soap-science-table) | Educator + tabletop reference |
+| Original game cinematic | [Lantern Runner](gaming-nature-and-production-tools.md#1-lantern-runner-game-cinematic) | Character + world references |
+| Astronomy visualization | [Moon's Terminator](gaming-nature-and-production-tools.md#2-a-night-on-the-moons-terminator) | Text + designed reference frames |
+| Compositing plate | [Clean-Screen Bicycle Turn](gaming-nature-and-production-tools.md#3-clean-screen-bicycle-turn-plate) | Performer reference + single take |
+| White-model previs | [Stairwell Chase Previs](gaming-nature-and-production-tools.md#4-stairwell-chase-white-model-previs) | Text-to-video, grayscale blocking |
 
 ## Collections
 
@@ -43,6 +59,10 @@ This catalog contains **24 original production prompts** grouped into six collec
 4. [Style & performance](style-and-performance.md) — original animation, fashion, music and choreography.
 5. [Food, travel & spaces](food-travel-spaces.md) — sensory detail, destination identity, architecture and craft.
 6. [Education, documentary & social](education-documentary-social.md) — explanations, factual tone, loops and social-impact stories.
+7. [Reference, editing & control](reference-editing-and-control.md) — match cuts, multi-image scenes, motion transfer and targeted revision.
+8. [Commerce, tech, mobility & industrial](commerce-tech-mobility-industrial.md) — livestreams, gadgets, automotive direction and manufacturing.
+9. [People, pets, learning & culture](people-pets-learning-culture.md) — presenters, digital humans, animal profiles and supervised science.
+10. [Gaming, nature & production tools](gaming-nature-and-production-tools.md) — game cinematics, astronomy, compositing plates and previsualization.
 
 ## Prompt metadata
 
