@@ -2,7 +2,7 @@
 
 # Awesome Kling 4.0 Prompts — Hướng dẫn tiếng Việt
 
-40 prompt video nguyên bản, sẵn sàng cho quy trình sản xuất phim, quảng cáo, UGC, hội thoại, VFX, hoạt hình, ẩm thực, du lịch, giáo dục và mạng xã hội.
+52 prompt video nguyên bản, sẵn sàng cho quy trình sản xuất phim, quảng cáo, UGC, hội thoại, VFX, hoạt hình, ẩm thực, du lịch, giáo dục và mạng xã hội.
 
 [English](README.md) · **Tiếng Việt** · [Đủ 15 ngôn ngữ](docs/LANGUAGES.md)
 
@@ -10,7 +10,7 @@
 
 </div>
 
-> **Trạng thái mô hình — 26-08-2026:** Kling 4.0 chưa được công bố chính thức. Phiên bản chính mới nhất có thể xác minh là Kling AI 3.0. Kho này là bản xem trước cộng đồng độc lập “4.0-ready”, dựa trên các khả năng 3.0 đã xác nhận và không coi thông tin 4K, giá, API hoặc thời lượng chưa kiểm chứng là thông số chính thức.
+> **Trạng thái mô hình — 01-09-2026:** Kling 4.0 chưa được công bố chính thức. Phiên bản chính mới nhất có thể xác minh là Kling AI 3.0. Kho này là bản xem trước cộng đồng độc lập “4.0-ready”, dựa trên các khả năng 3.0 đã xác nhận và không coi thông tin 4K, giá, API hoặc thời lượng chưa kiểm chứng là thông số chính thức.
 
 ## Cấu trúc nhanh
 

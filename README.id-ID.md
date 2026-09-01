@@ -2,7 +2,7 @@
 
 # Awesome Kling 4.0 Prompts — Panduan Bahasa Indonesia
 
-40 prompt video orisinal dan siap produksi untuk film, iklan, UGC, dialog, VFX, animasi, makanan, perjalanan, pendidikan, dan media sosial.
+52 prompt video orisinal dan siap produksi untuk film, iklan, UGC, dialog, VFX, animasi, makanan, perjalanan, pendidikan, dan media sosial.
 
 [English](README.md) · **Bahasa Indonesia** · [Semua 15 bahasa](docs/LANGUAGES.md)
 
@@ -10,7 +10,7 @@
 
 </div>
 
-> **Status model — 26-08-2026:** Kling 4.0 belum diumumkan secara resmi. Versi utama terbaru yang dapat diverifikasi adalah Kling AI 3.0. Repositori ini adalah pratinjau komunitas independen “4.0-ready” berdasarkan kemampuan 3.0 yang telah dikonfirmasi, tanpa menganggap spesifikasi 4K, harga, API, atau durasi yang belum terverifikasi sebagai fakta resmi.
+> **Status model — 01-09-2026:** Kling 4.0 belum diumumkan secara resmi. Versi utama terbaru yang dapat diverifikasi adalah Kling AI 3.0. Repositori ini adalah pratinjau komunitas independen “4.0-ready” berdasarkan kemampuan 3.0 yang telah dikonfirmasi, tanpa menganggap spesifikasi 4K, harga, API, atau durasi yang belum terverifikasi sebagai fakta resmi.
 
 ## Struktur singkat
 

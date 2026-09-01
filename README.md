@@ -4,33 +4,33 @@
 
 # Awesome Kling 4.0 Prompts
 
-### 40 original, production-ready Kling AI video prompt recipes with 15-language project guides
+### 52 original, production-ready Kling AI video prompt recipes with 15-language project guides
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-5b8cff.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/original_prompts-40-ff9f43.svg)](prompts/README.md)
-[![Collections](https://img.shields.io/badge/production_collections-10-8e7dff.svg)](#full-prompt-library)
+[![Prompts](https://img.shields.io/badge/original_prompts-52-ff9f43.svg)](prompts/README.md)
+[![Collections](https://img.shields.io/badge/production_collections-13-8e7dff.svg)](#full-prompt-library)
 [![Languages](https://img.shields.io/badge/project_languages-15-38c172.svg)](docs/LANGUAGES.md)
 [![Status](https://img.shields.io/badge/Kling_4.0-community_preview-f5c542.svg)](#model-status-and-compatibility)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/flaqai/awesome-kling-4-0/pulls)
 
 **English** · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [All 15 languages](docs/LANGUAGES.md)
 
-| [Browse 40 prompts](prompts/README.md) | [Submit an original prompt](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=prompt.yml) | [Request a missing scenario](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=request.yml) | [Contribution guide](CONTRIBUTING.md) | [Create with FLAQ.AI](#about-flaqai) |
+| [Browse 52 prompts](prompts/README.md) | [Submit an original prompt](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=prompt.yml) | [Request a missing scenario](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=request.yml) | [Contribution guide](CONTRIBUTING.md) | [Create with FLAQ.AI](#about-flaqai) |
 |---|---|---|---|---|
 
 </div>
 
 > [!IMPORTANT]
-> **Model status — 26 August 2026:** Kuaishou has not officially announced a Kling 4.0 model or API. The latest verified major release is **Kling AI 3.0**, launched on 5 February 2026. Kuaishou reported native 4K output for the 3.0 series on 19 August 2026. “Kling 4.0” in this repository is a forward-looking community project name, not a claim that 4.0 has been released.
+> **Model status — 1 September 2026:** Kuaishou has not officially announced a Kling 4.0 model or API. The latest verified major release is **Kling AI 3.0**, launched on 5 February 2026. Kuaishou reported native 4K output for the 3.0 series on 19 August 2026. “Kling 4.0” in this repository is a forward-looking community project name, not a claim that 4.0 has been released.
 
-An original, production-oriented library of complete Kling AI video prompts for **text-to-video, image-to-video, start/end frames, element references, multi-shot direction, native audio, motion transfer, video editing and extension**. Use copy-ready recipes for cinematic stories, product ads, livestream commerce, UGC, multilingual dialogue, automotive, industrial, VFX, animation, games, pets, education, green-screen plates, previsualization and social video.
+An original, production-oriented library of complete Kling AI video prompts for **text-to-video, image-to-video, start/end frames, element references, multi-shot direction, native audio, motion transfer, video editing and extension**. Use copy-ready recipes for cinematic stories, vertical short drama, viral social hooks, product ads, motion graphics, multi-photo transitions, livestream commerce, UGC, multilingual dialogue, automotive, industrial, VFX, animation, sound-led craft, games, education, green-screen plates and previsualization.
 
 ## Find the right prompt in under a minute
 
 | If you need… | Start here |
 |---|---|
-| One complete prompt to customize | [40-prompt master index](prompts/README.md) |
+| One complete prompt to customize | [52-prompt master index](prompts/README.md) |
 | Film dialogue or emotional performance | [Cinematic & dialogue prompts](prompts/cinematic-and-dialogue.md) |
 | Product, e-commerce, UGC or local-business content | [Commercial & UGC prompts](prompts/commercial-and-ugc.md) |
 | Sports movement, pursuit, transformation or spectacle | [Action & VFX prompts](prompts/action-and-vfx.md) |
@@ -41,6 +41,9 @@ An original, production-oriented library of complete Kling AI video prompts for 
 | Livestream, gadgets, automotive or manufacturing | [Commerce, tech, mobility & industrial prompts](prompts/commerce-tech-mobility-industrial.md) |
 | Presenters, digital humans, pets or supervised learning | [People, pets, learning & culture prompts](prompts/people-pets-learning-culture.md) |
 | Games, astronomy, green screen or previsualization | [Gaming, nature & production-tool prompts](prompts/gaming-nature-and-production-tools.md) |
+| Vertical drama, dialogue comedy or viral social hooks | [Short drama & viral social prompts](prompts/short-drama-and-viral-social.md) |
+| Motion graphics, multi-photo transitions or scale reveals | [Motion graphics & transition prompts](prompts/motion-graphics-and-transitions.md) |
+| Closed-course racing, mechanical animation or sound-led craft | [Genre action & sound-sync prompts](prompts/genre-action-and-sound.md) |
 | Better timing, camera, continuity, audio or constraints | [Advanced prompting guide](docs/PROMPT-GUIDE.md) |
 | Dialogue, pronunciation and mixed-language scenes | [Multilingual audio guide](docs/MULTILINGUAL-AUDIO.md) |
 | Guidance in another language | [15-language directory](docs/LANGUAGES.md) |
@@ -48,8 +51,8 @@ An original, production-oriented library of complete Kling AI video prompts for 
 
 ## What is included
 
-- **40 complete prompts, not one-line fragments:** each includes mode, anchors, world geometry, timed direction, performance, sound and failure constraints.
-- **Ten production collections:** film, dialogue, reference control, editing, product, livestream, UGC, automotive, industrial, action, VFX, animation, fashion, performance, food, travel, spaces, learning, pets, games and reusable production plates.
+- **52 complete prompts, not one-line fragments:** each includes mode, anchors, world geometry, timed direction, performance, sound and failure constraints.
+- **Thirteen production collections:** film, dialogue, reference control, editing, product, livestream, UGC, automotive, industrial, action, VFX, animation, vertical drama, viral social, motion graphics, transitions, sound sync, food, travel, learning, pets, games and reusable production plates.
 - **Four control strategies:** text-led discovery, image-to-video, start/end-frame transitions and element/reference consistency.
 - **Five verified native-dialogue languages:** Chinese, English, Japanese, Korean and Spanish, including mixed-language examples.
 - **15 project languages:** localized navigation and quick-start guidance, with a transparent distinction between documentation and model speech support.
@@ -63,7 +66,7 @@ This table separates official facts, live-platform availability and future-facin
 
 | Item | Verified status | Repository policy |
 |---|---|---|
-| Kling 4.0 | **Not officially announced** as of 2026-08-26 | No invented price, duration, model ID or API schema |
+| Kling 4.0 | **Not officially announced** as of 2026-09-01 | No invented price, duration, model ID or API schema |
 | Latest official generation | **Kling AI 3.0 series** | Used as the technical baseline |
 | Maximum Video 3.0 duration | Up to **15 seconds** | Prompt timelines stay within 5–15 seconds |
 | Kling 3.0 video output | Official guide lists 720p/1080p modes; Kuaishou reported **native 4K rollout** on 2026-08-19 | Record the model, provider, mode and date used; availability may vary |
@@ -158,6 +161,9 @@ Separate vehicle, camera, dust and creature trajectories for readable action geo
 | [Commerce, tech, mobility & industrial](prompts/commerce-tech-mobility-industrial.md) | livestream, gadget assembly, automotive, manufacturing | 4 |
 | [People, pets, learning & culture](prompts/people-pets-learning-culture.md) | talking head, digital human, animal profile, supervised science | 4 |
 | [Gaming, nature & production tools](prompts/gaming-nature-and-production-tools.md) | game cinematic, astronomy, compositing plate, white-model previs | 4 |
+| [Short drama & viral social](prompts/short-drama-and-viral-social.md) | cliffhanger series, dialogue comedy, mockumentary, surreal loop | 4 |
+| [Motion graphics & transitions](prompts/motion-graphics-and-transitions.md) | script-led graphics, multi-photo flow, material match, scale reveal | 4 |
+| [Genre action & sound sync](prompts/genre-action-and-sound.md) | closed-course racing, mechanical animation, craft audio, orbital physics | 4 |
 
 The [master index](prompts/README.md) also filters prompts by goal and recommended input strategy.
 
@@ -208,7 +214,7 @@ The repository is released under the [MIT License](LICENSE). Generated output ca
 
 ### Is Kling 4.0 available now?
 
-No official Kuaishou announcement or API specification was found as of 2026-08-26. The latest verified major release is Kling AI 3.0. This repository is prepared for a future official 4.0 release without presenting predictions as facts.
+No official Kuaishou announcement or API specification was found as of 2026-09-01. The latest verified major release is Kling AI 3.0. This repository is prepared for a future official 4.0 release without presenting predictions as facts.
 
 ## Sources, originality and responsible use
 
@@ -251,7 +257,7 @@ Code, documentation and original prompt text are released under the [MIT License
 
 <div align="center">
 
-**Kling 4.0 prompts · Kling AI prompts · AI video prompt engineering · Kling API workflows · image-to-video · reference-to-video · video editing · livestream commerce · automotive video · industrial video · green-screen plates · cinematic prompts · product video · UGC · multilingual AI video**
+**Kling 4.0 prompts · Kling AI prompts · AI video prompt engineering · Kling API workflows · image-to-video · reference-to-video · video editing · short drama · viral social video · motion graphics · fluid transitions · sound sync · livestream commerce · automotive video · industrial video · green-screen plates · cinematic prompts · product video · UGC · multilingual AI video**
 
 If this library saves you a production test, consider starring the repository and contributing a documented result.
 

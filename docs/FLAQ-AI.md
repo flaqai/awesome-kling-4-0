@@ -17,7 +17,7 @@
 
 ## Suggested workflow
 
-1. Select a prompt from the [40-scene catalog](../prompts/README.md).
+1. Select a prompt from the [52-scene catalog](../prompts/README.md).
 2. Replace variables and choose only the references needed for identity, product geometry or composition.
 3. Test the primary motion without dialogue, music or dense VFX.
 4. Add one camera path and verify screen direction and contact physics.

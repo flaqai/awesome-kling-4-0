@@ -33,7 +33,7 @@ This repository provides navigation and quick-start guidance in **15 languages**
 | Project positioning and model-status warning | Full | Full | Summary |
 | Prompt catalog navigation | Full | Full | Linked |
 | Universal prompt structure | Full | Full | Localized quick template |
-| 40 production prompts | Canonical English source | Canonical source linked | Canonical source linked |
+| 52 production prompts | Canonical English source | Canonical source linked | Canonical source linked |
 | Native-audio examples | Five-language shared guide | Five-language shared guide | Shared guide with support warning |
 | FLAQ.AI introduction | Full | Full | Localized summary |
 

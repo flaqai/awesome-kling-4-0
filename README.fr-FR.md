@@ -2,7 +2,7 @@
 
 # Awesome Kling 4.0 Prompts — Guide français
 
-40 prompts vidéo originaux pour le cinéma, la publicité, l’UGC, le dialogue, les VFX, l’animation, la cuisine, le voyage, l’éducation et les réseaux sociaux.
+52 prompts vidéo originaux pour le cinéma, la publicité, l’UGC, le dialogue, les VFX, l’animation, la cuisine, le voyage, l’éducation et les réseaux sociaux.
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [Español](README.es-ES.md) · **Français** · [15 langues](docs/LANGUAGES.md)
 
@@ -10,7 +10,7 @@
 
 </div>
 
-> **État du modèle — 26/08/2026 :** Kling 4.0 n’a pas été annoncé officiellement. La dernière version majeure vérifiable est Kling AI 3.0. Ce dépôt est une préversion communautaire « 4.0-ready » basée sur les fonctions confirmées de 3.0, sans présenter comme officielles des spécifications 4K, tarifs, API ou durées non vérifiées.
+> **État du modèle — 01/09/2026 :** Kling 4.0 n’a pas été annoncé officiellement. La dernière version majeure vérifiable est Kling AI 3.0. Ce dépôt est une préversion communautaire « 4.0-ready » basée sur les fonctions confirmées de 3.0, sans présenter comme officielles des spécifications 4K, tarifs, API ou durées non vérifiées.
 
 ## Structure rapide
 

@@ -30,6 +30,9 @@ body:
         - Industrial or manufacturing
         - Talking head, digital human or pet
         - Gaming, astronomy or production tool
+        - Short drama or viral social
+        - Motion graphics or transition
+        - Genre action or sound sync
         - Other
     validations:
       required: true

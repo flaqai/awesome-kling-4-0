@@ -24,6 +24,12 @@ The expansion from 24 to 40 recipes used the public category index of [AtlasClou
 
 The resulting 16 recipes were independently designed for this collection. They use new fictional people, generic products, original scene geometry and fresh timed direction. The external prompt text and media were not retained.
 
+## 2026-09-01 coverage review
+
+The public category structure of [ZeroLu/awesome-seedance](https://github.com/ZeroLu/awesome-seedance) was reviewed for additional gaps. Its broad groupings around cinematic work, advertising, social media, UGC, animation, short-form drama and experimental effects helped identify three areas that remained thin here: episodic vertical storytelling, motion-graphics/transition workflows and sound-led genre sequences.
+
+Twelve new recipes were written independently for those gaps. No named-director imitation, third-party brand, protected character, source dialogue, shot order, prompt wording, preview image, video or contributor identity was reused. The new entries replace those elements with original fictional subjects, generic products, controlled safety contexts and Kling-specific continuity checks.
+
 ## Review states
 
 | State | Meaning | What it does not mean |

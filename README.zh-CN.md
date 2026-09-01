@@ -4,23 +4,23 @@
 
 # Awesome Kling 4.0 Prompts｜可灵 AI 视频提示词库
 
-### 40 条原创生产级视频提示词 · 10 个制作专题 · 15 种语言项目指南
+### 52 条原创生产级视频提示词 · 13 个制作专题 · 15 种语言项目指南
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-5b8cff.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/原创提示词-40-ff9f43.svg)](prompts/README.md)
+[![Prompts](https://img.shields.io/badge/原创提示词-52-ff9f43.svg)](prompts/README.md)
 [![Languages](https://img.shields.io/badge/项目语言-15-38c172.svg)](docs/LANGUAGES.md)
 [![Status](https://img.shields.io/badge/Kling_4.0-社区预览版-f5c542.svg)](#模型版本与兼容性)
 [![PRs Welcome](https://img.shields.io/badge/欢迎-提交_PR-brightgreen.svg)](https://github.com/flaqai/awesome-kling-4-0/pulls)
 
 [English](README.md) · **简体中文** · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [全部 15 种语言](docs/LANGUAGES.md)
 
-| [浏览 40 条提示词](prompts/README.md) | [提交原创提示词](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=prompt.yml) | [提出缺失场景](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=request.yml) | [贡献指南](CONTRIBUTING.md) | [使用 FLAQ.AI](#关于-flaqai) |
+| [浏览 52 条提示词](prompts/README.md) | [提交原创提示词](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=prompt.yml) | [提出缺失场景](https://github.com/flaqai/awesome-kling-4-0/issues/new?template=request.yml) | [贡献指南](CONTRIBUTING.md) | [使用 FLAQ.AI](#关于-flaqai) |
 |---|---|---|---|---|
 
 </div>
 
 > [!IMPORTANT]
-> **版本状态（2026-08-26）：** 快手尚未正式发布可核验的 Kling / 可灵 4.0 模型或 API。当前官方最新主版本是 2026 年 2 月 5 日发布的 **可灵 AI 3.0 系列**；快手在 2026 年 8 月 19 日披露 3.0 系列已推出原生 4K 视频输出。“Kling 4.0”是面向未来版本的社区项目名称，并不表示 4.0 已经上线。
+> **版本状态（2026-09-01）：** 快手尚未正式发布可核验的 Kling / 可灵 4.0 模型或 API。当前官方最新主版本是 2026 年 2 月 5 日发布的 **可灵 AI 3.0 系列**；快手在 2026 年 8 月 19 日披露 3.0 系列已推出原生 4K 视频输出。“Kling 4.0”是面向未来版本的社区项目名称，并不表示 4.0 已经上线。
 
 这是一个面向真实创作流程的可灵 AI 视频提示词库，覆盖文生视频、图生视频、首尾帧、主体/元素参考、多镜头调度和原生音频。内容不是简单的画面形容词，而是包含角色一致性、空间位置、逐秒动作、摄影机路径、表演、物理反馈、声音和失败约束的完整导演简报。
 
@@ -28,7 +28,7 @@
 
 | 你想制作… | 从这里开始 |
 |---|---|
-| 直接复制一条完整提示词 | [40 条提示词总目录](prompts/README.md) |
+| 直接复制一条完整提示词 | [52 条提示词总目录](prompts/README.md) |
 | 剧情短片、双人或多人对白 | [电影与对白](prompts/cinematic-and-dialogue.md) |
 | 产品广告、电商演示、UGC、本地商家内容 | [商业与 UGC](prompts/commercial-and-ugc.md) |
 | 追逐、运动、变形或 VFX | [动作与特效](prompts/action-and-vfx.md) |
@@ -39,6 +39,9 @@
 | 直播、数码、汽车或制造业内容 | [商业、科技、出行与工业](prompts/commerce-tech-mobility-industrial.md) |
 | 讲解人、数字人、宠物或儿童科普 | [人物、宠物、学习与文化](prompts/people-pets-learning-culture.md) |
 | 游戏、天文、绿幕素材或白模预演 | [游戏、自然与制作工具](prompts/gaming-nature-and-production-tools.md) |
+| 竖屏短剧、对白喜剧或社交传播钩子 | [短剧与病毒式社交内容](prompts/short-drama-and-viral-social.md) |
+| 动态图形、多图转场、材质匹配或尺度揭示 | [动态图形与转场](prompts/motion-graphics-and-transitions.md) |
+| 封闭赛道、机械动画或声音驱动剪辑 | [类型动作与声音同步](prompts/genre-action-and-sound.md) |
 | 改善镜头、动作、声音和连续性 | [提示词工程指南](docs/PROMPT-GUIDE.md) |
 | 编写中文、外语或混合语言对白 | [多语言音频指南](docs/MULTILINGUAL-AUDIO.md) |
 | 查看其他语言的使用说明 | [15 种语言目录](docs/LANGUAGES.md) |
@@ -46,8 +49,8 @@
 
 ## 项目包含什么
 
-- **40 条完整原创提示词：** 每条都有适用模式、连续性锚点、空间、逐秒镜头、声音、约束、替换思路和失败检查。
-- **10 个制作专题：** 新增匹配剪辑、多图参考、动作迁移、视频编辑与续写、直播电商、数码、汽车、工业、数字人、宠物、儿童科普、游戏、天文、绿幕素材和白模预演。
+- **52 条完整原创提示词：** 每条都有适用模式、连续性锚点、空间、逐秒镜头、声音、约束、替换思路和失败检查。
+- **13 个制作专题：** 在参考控制、视频编辑、直播电商、汽车、工业、数字人、宠物、儿童科普、游戏和制作工具之外，新增竖屏连续短剧、病毒式社交内容、动态图形、多图转场、尺度揭示、类型动作和声音同步。
 - **四种控制策略：** 文本探索、图生视频、首尾帧转场、主体/元素参考一致性。
 - **五种官方确认的原生对白语言：** 中文、英文、日文、韩文、西班牙文，并包含混合语言写法。
 - **15 种项目语言：** 提供本地化导航与快速模板，并明确区分“文档语言”和“模型原生语音能力”。
@@ -59,7 +62,7 @@
 
 | 项目 | 已确认状态 | 本仓库的处理 |
 |---|---|---|
-| Kling 4.0 | 截至 2026-08-26 尚未正式公布 | 不虚构价格、时长、模型 ID 或 API 参数 |
+| Kling 4.0 | 截至 2026-09-01 尚未正式公布 | 不虚构价格、时长、模型 ID 或 API 参数 |
 | 最新官方主版本 | 可灵 AI 3.0 系列 | 作为当前技术基线 |
 | Video 3.0 单次时长 | 最长 15 秒 | 提示词时间轴控制在 5–15 秒 |
 | Kling 3.0 视频输出 | 使用指南列出 720p/1080p；快手 2026-08-19 披露原生 4K 已推出 | 记录实际模型、平台、模式和日期；不同入口可用性可能不同 |
@@ -127,6 +130,9 @@
 | [商业、科技、出行与工业](prompts/commerce-tech-mobility-industrial.md) | 直播、数码组装、汽车、制造业 | 4 |
 | [人物、宠物、学习与文化](prompts/people-pets-learning-culture.md) | 讲解、数字人、动物档案、监督式科普 | 4 |
 | [游戏、自然与制作工具](prompts/gaming-nature-and-production-tools.md) | 游戏、天文、绿幕素材、白模预演 | 4 |
+| [短剧与病毒式社交内容](prompts/short-drama-and-viral-social.md) | 连续剧悬念、对白喜剧、伪纪录片、超现实循环 | 4 |
+| [动态图形与转场](prompts/motion-graphics-and-transitions.md) | 脚本驱动 MG、多图过程、材质匹配、尺度揭示 | 4 |
+| [类型动作与声音同步](prompts/genre-action-and-sound.md) | 封闭赛道、机械动画、工艺声音、轨道物理 | 4 |
 
 ## 多语言支持
 
@@ -136,7 +142,7 @@
 - 西班牙语、法语、德语、巴西葡萄牙语、意大利语；
 - 阿拉伯语、俄语、印度尼西亚语、泰语、越南语。
 
-40 条复杂提示词继续以英语文件作为稳定技术源，避免多版本的时间码、机位和声音约束发生无声偏移。其他语言页面提供本地化快速模板、版本警告、FLAQ.AI 简介和稳定的提示词 ID 链接。详细覆盖范围、标签翻译和本地化规则见[语言矩阵](docs/LANGUAGES.md)。
+52 条复杂提示词继续以英语文件作为稳定技术源，避免多版本的时间码、机位和声音约束发生无声偏移。其他语言页面提供本地化快速模板、版本警告、FLAQ.AI 简介和稳定的提示词 ID 链接。详细覆盖范围、标签翻译和本地化规则见[语言矩阵](docs/LANGUAGES.md)。
 
 > 文档语言不等于原生语音能力。官方确认的可灵 3.0 原生对白语言为中文、英文、日文、韩文和西班牙文。其他口语应先测试实时模型，或生成无对白画面后在后期加入经过校对的配音。
 
@@ -167,11 +173,11 @@
 
 ### Kling 4.0 已经上线了吗？
 
-截至 2026-08-26，没有找到快手官方 4.0 发布说明或 API 规格。当前最新官方主版本是可灵 3.0。本项目为未来正式 4.0 做准备，但不会把预测写成事实。
+截至 2026-09-01，没有找到快手官方 4.0 发布说明或 API 规格。当前最新官方主版本是可灵 3.0。本项目为未来正式 4.0 做准备，但不会把预测写成事实。
 
 ## 原创性与负责任使用
 
-所有提示词、场景、说明和本地图片均为这个项目重新创作，不复制第三方条目、作者信息或图库缩略图。本轮扩充只使用外部项目的公开分类做覆盖审计，16 条新增配方的标题、人物、产品、镜头、对白和约束均从零编写；详细方法与参考记录见[策展、灵感与原创性政策](docs/CURATION.md)。商业发布前应检查版权、肖像、商标、音乐、产品宣称、安全、事实准确性、无障碍和平台政策。
+所有提示词、场景、说明和本地图片均为这个项目重新创作，不复制第三方条目、作者信息或图库缩略图。外部项目只作为公开分类覆盖审计；两轮扩充的 28 条配方，其标题、人物、产品、镜头、对白和约束均从零编写。详细方法与参考记录见[策展、灵感与原创性政策](docs/CURATION.md)。商业发布前应检查版权、肖像、商标、音乐、产品宣称、安全、事实准确性、无障碍和平台政策。
 
 ## 关于 FLAQ.AI
 
@@ -197,4 +203,4 @@ FLAQ.AI 当前列出的是 Kling 3.0 工作流；本仓库不宣称其已经提�
 
 ---
 
-**SEO 主题：** Kling 4.0 提示词、可灵 4.0 prompt、Kling AI 视频提示词、Kling API、FLAQ.AI、可灵图生视频、参考生视频、视频编辑与续写、AI 视频广告提示词、直播电商视频、汽车视频、工业视频、绿幕素材、白模预演、UGC 提示词、多语言 AI 视频、电影分镜提示词。
+**SEO 主题：** Kling 4.0 提示词、可灵 4.0 prompt、Kling AI 视频提示词、Kling API、FLAQ.AI、可灵图生视频、参考生视频、视频编辑与续写、AI 短剧提示词、病毒视频提示词、动态图形、图片转场、声音同步、AI 视频广告提示词、直播电商视频、汽车视频、工业视频、绿幕素材、白模预演、UGC 提示词、多语言 AI 视频、电影分镜提示词。

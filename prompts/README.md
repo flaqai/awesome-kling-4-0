@@ -2,9 +2,9 @@
 
 [Home](../README.md) · [中文指南](../README.zh-CN.md) · [15 languages](../docs/LANGUAGES.md) · [Prompting guide](../docs/PROMPT-GUIDE.md) · [Multilingual audio](../docs/MULTILINGUAL-AUDIO.md) · [FLAQ.AI workflow](../docs/FLAQ-AI.md)
 
-This catalog contains **40 original production prompts** grouped into ten collections. It spans narrative, commerce, reference control, editing, mobility, industrial, education and production-tool workflows. Every prompt can be copied as-is or treated as a scaffold. Replace `{variables}`, select the matching input mode, and remove any instruction that is not visible or audible in your intended clip.
+This catalog contains **52 original production prompts** grouped into thirteen collections. It spans narrative, commerce, reference control, editing, mobility, industrial, education, viral social, motion graphics, transition and production-tool workflows. Every prompt can be copied as-is or treated as a scaffold. Replace `{variables}`, select the matching input mode, and remove any instruction that is not visible or audible in your intended clip.
 
-> **Compatibility note:** The repository targets a future official Kling 4.0 release, but the capability labels are grounded in verified Kling Video 3.0 behavior as of 2026-08-26. Settings and availability can vary by region, account and model mode.
+> **Compatibility note:** The repository targets a future official Kling 4.0 release, but the capability labels are grounded in verified Kling Video 3.0 behavior as of 2026-09-01. Settings and availability can vary by region, account and model mode.
 
 ## Choose by goal
 
@@ -50,6 +50,18 @@ This catalog contains **40 original production prompts** grouped into ten collec
 | Astronomy visualization | [Moon's Terminator](gaming-nature-and-production-tools.md#2-a-night-on-the-moons-terminator) | Text + designed reference frames |
 | Compositing plate | [Clean-Screen Bicycle Turn](gaming-nature-and-production-tools.md#3-clean-screen-bicycle-turn-plate) | Performer reference + single take |
 | White-model previs | [Stairwell Chase Previs](gaming-nature-and-production-tools.md#4-stairwell-chase-white-model-previs) | Text-to-video, grayscale blocking |
+| Episodic vertical cliffhanger | [Metro Card That Came Back](short-drama-and-viral-social.md#1-the-metro-card-that-came-back) | Two characters + location reference |
+| Workplace dialogue comedy | [Last Clean Mug](short-drama-and-viral-social.md#2-the-last-clean-mug) | Three character elements + multi-shot |
+| Giant-object mockumentary | [Laundry Day Above the Harbor](short-drama-and-viral-social.md#3-laundry-day-above-the-harbor) | City start image + phone-style single take |
+| Surreal social loop | [Shadow Takes the Early Train](short-drama-and-viral-social.md#4-the-shadow-takes-the-early-train) | Matched start/end frame |
+| Script-led motion graphics | [Refill Tin](motion-graphics-and-transitions.md#1-refill-tin-script-to-motion-graphics-ad) | Script board + product + start/end frames |
+| Multi-photo process transition | [From Seedling to Supper](motion-graphics-and-transitions.md#2-from-seedling-to-supper) | Four owned image references |
+| Material-match transition | [Blue Glaze, Tidal Map](motion-graphics-and-transitions.md#3-blue-glaze-tidal-map) | Craft object + landscape references |
+| Extreme scale reveal | [Crystal Canyon Is Breakfast](motion-graphics-and-transitions.md#4-the-crystal-canyon-is-breakfast) | Start/end reference frames |
+| Closed-course racing | [Wet-Track Precision Lap](genre-action-and-sound.md#1-wet-track-precision-lap) | Vehicle + driver references |
+| Mechanical animation | [Clockwork Heron Launch](genre-action-and-sound.md#2-clockwork-heron-launch) | Character design + mechanism references |
+| Sound-led craft montage | [Glassblower Rhythm Cut](genre-action-and-sound.md#3-glassblower-rhythm-cut) | Artisan + workshop references |
+| Orbital physics visualization | [Quiet Docking Above the Aurora](genre-action-and-sound.md#4-quiet-docking-above-the-aurora) | Vehicle references + multi-shot |
 
 ## Collections
 
@@ -63,6 +75,9 @@ This catalog contains **40 original production prompts** grouped into ten collec
 8. [Commerce, tech, mobility & industrial](commerce-tech-mobility-industrial.md) — livestreams, gadgets, automotive direction and manufacturing.
 9. [People, pets, learning & culture](people-pets-learning-culture.md) — presenters, digital humans, animal profiles and supervised science.
 10. [Gaming, nature & production tools](gaming-nature-and-production-tools.md) — game cinematics, astronomy, compositing plates and previsualization.
+11. [Short drama & viral social](short-drama-and-viral-social.md) — vertical cliffhangers, dialogue comedy, mockumentary hooks and surreal loops.
+12. [Motion graphics & transitions](motion-graphics-and-transitions.md) — script-led graphics, multi-photo processes, material matches and scale reveals.
+13. [Genre action & sound sync](genre-action-and-sound.md) — closed-course racing, mechanical animation, craft audio and orbital physics.
 
 ## Prompt metadata
 
