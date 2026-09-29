@@ -4,7 +4,7 @@
 
 This catalog contains **52 original production prompts** grouped into thirteen collections. It spans narrative, commerce, reference control, editing, mobility, industrial, education, viral social, motion graphics, transition and production-tool workflows. Every prompt can be copied as-is or treated as a scaffold. Replace `{variables}`, select the matching input mode, and remove any instruction that is not visible or audible in your intended clip.
 
-> **Compatibility note:** The repository targets a future official Kling 4.0 release, but the capability labels are grounded in verified Kling Video 3.0 behavior as of 2026-09-01. Settings and availability can vary by region, account and model mode.
+> **Compatibility note (29 September 2026):** Kling 4.0 Flash is in limited early access. The full Kling 4.0 model, with an announced single-generation maximum of 30 seconds, is planned for October. These 52 recipes use 5–15-second timelines based on established Kling 3.0 controls. Confirm the controls of your selected Flash or full 4.0 mode before adapting them.
 
 ## Choose by goal
 
@@ -96,4 +96,4 @@ Use generic or licensed products, actors, music and locations. Do not imitate a 
 
 ## Try the prompts on FLAQ.AI
 
-FLAQ.AI currently provides browser and API entry points for Kling 3.0 Standard [text-to-video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/) and [image-to-video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/). This catalog does not claim Kling 4.0 availability. Check the live model page for current settings, prices and API parameters, then follow the [FLAQ.AI workflow guide](../docs/FLAQ-AI.md).
+FLAQ.AI currently provides browser and API entry points for Kling 3.0 Standard [text-to-video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/) and [image-to-video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/). Its Kling 4.0 [text-to-video](https://flaq.ai/models/kuaishou/kling-4-0-text-to-video/) and [image-to-video](https://flaq.ai/models/kuaishou/kling-4-0-image-to-video/) pages say **Coming Soon**. Follow the [FLAQ.AI workflow guide](../docs/FLAQ-AI.md) and check live generation availability before using a 4.0 API.

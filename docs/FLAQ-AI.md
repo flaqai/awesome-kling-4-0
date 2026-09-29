@@ -4,7 +4,7 @@
 
 [FLAQ.AI](https://flaq.ai/) is a browser-based model platform and unified API layer for image, video and language-model workflows. Its current model catalog includes Kling video options alongside other creative models, making it possible to test a prompt interactively and move successful workflows into an API-based production pipeline.
 
-> **Availability note:** FLAQ.AI currently exposes Kling 3.0 workflows. This repository does not claim that Kling 4.0 is available there. Model names, controls, prices, duration, resolution and API schemas can change; verify the live model page and documentation before production use.
+> **Availability note — 29 September 2026:** Kling 4.0 Flash is available through limited access on Kling AI's own platform. FLAQ.AI's Kling 4.0 text-to-video and image-to-video pages are marked **Coming Soon**; the official Kling 4.0 API is planned for October. Use the live FLAQ.AI model page to confirm when generation and API access actually open.
 
 ## Choose from what you already have
 
@@ -12,6 +12,7 @@
 |---|---|---|
 | Concept, script or shot list | [Kling 3.0 Standard Text-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/) | Visual exploration, narrative scenes, social hooks, atmosphere and previs |
 | Product image, portrait, illustration or first frame | [Kling 3.0 Standard Image-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/) | Product motion, identity-led portraits, artwork animation and controlled composition |
+| Plan for the full Kling 4.0 release | [Kling 4.0 Text-to-Video](https://flaq.ai/models/kuaishou/kling-4-0-text-to-video/) · [Image-to-Video](https://flaq.ai/models/kuaishou/kling-4-0-image-to-video/) | Coming Soon pages; controls and API options are pending |
 | Repeated or integrated generation | [FLAQ.AI API documentation](https://flaq.ai/docs/) | Creative tools, batch workflows, internal pipelines and applications |
 | Need to compare model families | [FLAQ.AI model platform](https://flaq.ai/) | Image, video and LLM model discovery in one environment |
 
@@ -48,4 +49,7 @@ The prompt library remains model-aware but platform-independent: its main value 
 - [FLAQ.AI home and model catalog](https://flaq.ai/)
 - [Kling 3.0 Standard Text-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/)
 - [Kling 3.0 Standard Image-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/)
+- [Kling 4.0 Text-to-Video — Coming Soon](https://flaq.ai/models/kuaishou/kling-4-0-text-to-video/)
+- [Kling 4.0 Image-to-Video — Coming Soon](https://flaq.ai/models/kuaishou/kling-4-0-image-to-video/)
+- [Official Kling AI 4.0 announcement](https://sg.linkedin.com/company/kling-ai-api)
 - [FLAQ.AI API documentation](https://flaq.ai/docs/)

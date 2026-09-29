@@ -4,6 +4,8 @@
 
 Kling Video 3.0’s official documentation lists native dialogue support for **Chinese, English, Japanese, Korean and Spanish**, including mixed-language scenes. This guide shows a compact, speaker-safe way to write those prompts. Treat pronunciation and exact wording as output to verify, especially for names, numbers and regulated claims.
 
+Kling AI has announced broader language, accent and dialect support for the full 4.0 release planned for October 2026. Kling 4.0 Flash is in limited early access; verify each language in the mode available to you before relying on it. The examples below retain the documented 3.0 language baseline.
+
 ## Speaker-safe syntax
 
 ```text

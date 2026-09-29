@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Prompt catalog](../prompts/README.md) · [15 languages](LANGUAGES.md) · [Multilingual audio](MULTILINGUAL-AUDIO.md) · [FLAQ.AI workflow](FLAQ-AI.md)
 
-This guide turns an idea into a prompt that directs not just appearance, but also **time, motion, camera, continuity and audio**. It is written for the verified Kling 3.0 toolset and is structured to remain useful when an official Kling 4.0 model becomes available.
+This guide turns an idea into a prompt that directs **time, motion, camera, continuity and audio**. Its examples use established Kling 3.0 controls and 5–15-second timelines. As of 29 September 2026, Kling 4.0 Flash is in limited early access; the full Kling 4.0 model is planned for October with an announced maximum of 30 seconds per generation. Expand these timelines only after confirming the controls of the mode you select. See the [model status](../README.md#model-status-and-compatibility).
 
 ## 1. Choose the right input mode
 

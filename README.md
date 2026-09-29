@@ -11,7 +11,7 @@
 [![Prompts](https://img.shields.io/badge/original_prompts-52-ff9f43.svg)](prompts/README.md)
 [![Collections](https://img.shields.io/badge/production_collections-13-8e7dff.svg)](#full-prompt-library)
 [![Languages](https://img.shields.io/badge/project_languages-15-38c172.svg)](docs/LANGUAGES.md)
-[![Status](https://img.shields.io/badge/Kling_4.0-community_preview-f5c542.svg)](#model-status-and-compatibility)
+[![Status](https://img.shields.io/badge/Kling_4.0_Flash-early_access-f5c542.svg)](#model-status-and-compatibility)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/flaqai/awesome-kling-4-0/pulls)
 
 **English** · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [All 15 languages](docs/LANGUAGES.md)
@@ -22,7 +22,7 @@
 </div>
 
 > [!IMPORTANT]
-> **Model status — 1 September 2026:** Kuaishou has not officially announced a Kling 4.0 model or API. The latest verified major release is **Kling AI 3.0**, launched on 5 February 2026. Kuaishou reported native 4K output for the 3.0 series on 19 August 2026. “Kling 4.0” in this repository is a forward-looking community project name, not a claim that 4.0 has been released.
+> **Model status — 29 September 2026:** **Kling 4.0 Flash opened for early access on 28 September** for Kling Ultra Yearly subscribers. Kling AI says the broader **Kling 4.0 release and API access are coming in October 2026**; it has not given a day. The announced full 4.0 model supports **up to 30 seconds in one generation**. That 30-second figure describes the forthcoming full model, not a verified limit for today's Flash access. See the [official Kling AI announcement](https://sg.linkedin.com/company/kling-ai-api) and [release notes](https://kling.ai/release-note/release-notes/Kling_4?type=dialog).
 
 An original, production-oriented library of complete Kling AI video prompts for **text-to-video, image-to-video, start/end frames, element references, multi-shot direction, native audio, motion transfer, video editing and extension**. Use copy-ready recipes for cinematic stories, vertical short drama, viral social hooks, product ads, motion graphics, multi-photo transitions, livestream commerce, UGC, multilingual dialogue, automotive, industrial, VFX, animation, sound-led craft, games, education, green-screen plates and previsualization.
 
@@ -47,6 +47,7 @@ An original, production-oriented library of complete Kling AI video prompts for 
 | Better timing, camera, continuity, audio or constraints | [Advanced prompting guide](docs/PROMPT-GUIDE.md) |
 | Dialogue, pronunciation and mixed-language scenes | [Multilingual audio guide](docs/MULTILINGUAL-AUDIO.md) |
 | Guidance in another language | [15-language directory](docs/LANGUAGES.md) |
+| Recent Kling 4.0 Flash videos and shared prompts on X | [Flash demo and prompt watchlist](#kling-40-flash-x-demos-and-prompt-lessons) |
 | Browser testing or an API-oriented workflow | [FLAQ.AI workflow guide](docs/FLAQ-AI.md) |
 
 ## What is included
@@ -54,31 +55,69 @@ An original, production-oriented library of complete Kling AI video prompts for 
 - **52 complete prompts, not one-line fragments:** each includes mode, anchors, world geometry, timed direction, performance, sound and failure constraints.
 - **Thirteen production collections:** film, dialogue, reference control, editing, product, livestream, UGC, automotive, industrial, action, VFX, animation, vertical drama, viral social, motion graphics, transitions, sound sync, food, travel, learning, pets, games and reusable production plates.
 - **Four control strategies:** text-led discovery, image-to-video, start/end-frame transitions and element/reference consistency.
-- **Five verified native-dialogue languages:** Chinese, English, Japanese, Korean and Spanish, including mixed-language examples.
+- **Five documented Kling 3.0 native-dialogue languages:** Chinese, English, Japanese, Korean and Spanish, including mixed-language examples; full 4.0 promises broader language support.
 - **15 project languages:** localized navigation and quick-start guidance, with a transparent distinction between documentation and model speech support.
 - **Five original visual assets:** every local image was generated for this repository and documented in the [asset manifest](assets/images/README.md).
 - **Production guidance:** aspect-ratio planning, camera geography, reference ownership, audio timelines, iteration logs, rights review and pre-publish checks.
+- **Flash creator watchlist:** six linked X examples, their practical prompt lessons and one original quick-start exercise.
 - **FLAQ.AI workflow notes:** browser and API routes for currently available Kling 3.0 text-to-video and image-to-video models.
 
 ## Model status and compatibility
 
-This table separates official facts, live-platform availability and future-facing project naming.
+Kling 4.0 has been announced. The currently accessible Flash variant and the planned full release have different availability, so use the model actually selected in your account when adapting a recipe.
 
 | Item | Verified status | Repository policy |
 |---|---|---|
-| Kling 4.0 | **Not officially announced** as of 2026-09-01 | No invented price, duration, model ID or API schema |
-| Latest official generation | **Kling AI 3.0 series** | Used as the technical baseline |
-| Maximum Video 3.0 duration | Up to **15 seconds** | Prompt timelines stay within 5–15 seconds |
+| Kling 4.0 Flash | **Early access opened 28 September 2026** for Ultra Yearly subscribers | Test the available controls in your account; do not assume full 4.0 limits apply to Flash |
+| Full Kling 4.0 | **Announced for October 2026**; exact day not published | Treat announced features as planned until the full model is available for testing |
+| Single-generation duration | Video 3.0: up to **15 seconds**; full 4.0: **up to 30 seconds announced** | The 52 existing prompt timelines remain 5–15 seconds; extend beats only when your selected model supports longer clips |
+| Multi-keyframe / reference control | Full 4.0 announcement: up to **10 keyframes** and **15 multimodal references** | Assign each reference and keyframe a distinct job; confirm these controls in the live mode |
+| Full 4.0 image and sound | Up to **4K / 10-bit HDR**, stereo audio and improved lip sync announced | Output options may arrive by mode or tier; verify the generation settings |
 | Kling 3.0 video output | Official guide lists 720p/1080p modes; Kuaishou reported **native 4K rollout** on 2026-08-19 | Record the model, provider, mode and date used; availability may vary |
 | Multi-shot | Automatic and custom multi-shot documented | Shots declare time, frame, action and camera path |
 | Identity / element consistency | Start frame + bound subject / element reference documented | Named continuity anchors are repeated across shots |
 | Native audio | Dialogue, ambience and effects | Audio is assigned per speaker and timed beat |
-| Verified dialogue languages | Chinese, English, Japanese, Korean and Spanish | Other project languages are not presented as native-audio support |
+| Kling 3.0 verified dialogue languages | Chinese, English, Japanese, Korean and Spanish | Full 4.0 announces broader language, accent and dialect support; test the selected mode |
 | 3+ character dialogue | Multi-character coreference documented | Group scenes fix speaker, seat, wardrobe and order |
 | Text preservation | Improved preservation of source-image text documented | Approved packaging should be supplied as a reference and checked frame by frame |
-| FLAQ.AI availability | Kling 3.0 Standard text-to-video and image-to-video pages are live | This repository does not claim Kling 4.0 availability on FLAQ.AI |
+| Official Kling API | Kling AI says **4.0 API access is coming in October** | No 4.0 API model ID, price or request schema is asserted here |
+| FLAQ.AI availability | Kling 3.0 workflows are available; FLAQ.AI's 4.0 text/image-to-video pages say **Coming Soon** | A model listing is not an active 4.0 generation endpoint |
 
-Verified sources: [Kuaishou’s Kling AI 3.0 announcement](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be), the [official Kling Video 3.0 guide](https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide), [Kuaishou’s 19 August 2026 results update](https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-second-quarter-and-interim-2026), and the live FLAQ.AI pages linked in the [FLAQ.AI workflow guide](docs/FLAQ-AI.md).
+Sources checked 29 September 2026: [Kling AI's 4.0 announcement](https://sg.linkedin.com/company/kling-ai-api), [Kling 4.0 release notes](https://kling.ai/release-note/release-notes/Kling_4?type=dialog), [official Kling Video 3.0 guide](https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide), [Kuaishou's 3.0 native 4K update](https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-second-quarter-and-interim-2026), and the [FLAQ.AI workflow guide](docs/FLAQ-AI.md).
+
+## Kling 4.0 Flash: X demos and prompt lessons
+
+Checked on **29 September 2026**. The [official Kling AI X launch video](https://x.com/Kling_ai/status/2104596718067257458) introduces the 4.0 family and Flash early access; its promotional montage is **not** evidence that Flash generates a 1:54 clip in one pass. The community posts below are creator-described tests, not official benchmarks or independently verified generation records. Watch the original videos and credit their creators; this repository does not copy their footage or full prompts.
+
+| Creator's X post | What was shared | Useful prompt experiment |
+|---|---|---|
+| [Umesh: nighttime cat chase](https://x.com/umesh_ai/status/2104595267794460949) · [shared prompt](https://x.com/umesh_ai/status/2104595270671724936) | A creator-labeled 20-second continuous handheld chase through several spaces | Name one subject, a connected route and one physical event per location; ask for a continuous camera path rather than disconnected scenes. |
+| [OscarAI: anime concert](https://x.com/Artedeingenio/status/2104829034299351079) | A 20-second Flash video with its prompt; the creator reports better early results from a shorter, direct brief, while noting imperfect adherence | Test a concise sequence of subject → change → camera → ending before adding decorative detail. |
+| [とすくん: weather-shift film](https://x.com/tokyo_Valentine/status/2104810060811833710) · [shared prompt](https://x.com/tokyo_Valentine/status/2104810064750239987) | A 15-second reference-led character video and a detailed shot-by-shot prompt | Separate the character sheet's identity role from the scene; state when weather, light and performance change. |
+| [Alexandra Dekimpe: production tests](https://x.com/HadesDesign/status/2104878440889417957) | An article with embedded Flash clips covering acting, action, multi-shot direction and references | Replace abstract emotion with visible micro-actions; gate cause and effect with “only after”; provide exact dialogue or request silence. These are the creator's observations, not guaranteed model behavior. |
+| [Aswin Aji Raj: Hindi skincare UGC](https://x.com/Aswin_Aji_Raj/status/2104867308514779222) | A creator-labeled 20-second UGC video with Hindi dialogue; the prompt text is not published there | For multilingual tests, specify the speaker and exact line, then review pronunciation, lip sync and any product claims. |
+| [@plasm0: 3.0 vs Flash comparison](https://x.com/plasm0/status/2104597949485629557) | Two 10-second clips the creator says used the same prompt | Re-run a fixed brief and reference set across model modes; compare motion, shadows, identity and prompt adherence without treating one pair as a benchmark. |
+
+**An original Flash-oriented starter prompt (15 seconds, 9:16):** This is a new, untested exercise outside the 52-prompt catalog, inspired by the *testing methods* but not copied from any X prompt. Use only controls available in your selected Flash mode.
+
+```text
+[SUBJECT / REFERENCE]
+A small unbranded rechargeable bicycle lamp on a repair-shop workbench. If an image is supplied, it controls only the lamp's shape, matte graphite finish and single amber switch. Keep one lamp throughout.
+
+[SCENE / CAMERA]
+Dusk in a quiet bicycle workshop. One continuous close-follow camera move, from the mechanic's hands to the lamp and then the bicycle handlebar. Natural window light; no cut or teleportation.
+
+[TIMING]
+0–4s: The mechanic places the switched-off lamp beside the handlebar; show both hands and the mounting bracket.
+4–8s: She clips the lamp into the bracket. Only after the clip audibly locks does her thumb press the amber switch.
+8–12s: The light turns on once, illuminating the front tire and a small patch of the floor. Camera eases sideways to reveal the beam.
+12–15s: She releases the handlebar; the lamp stays fixed. Hold a steady final frame on the bicycle and its light.
+
+[AUDIO / CONSTRAINTS]
+Workshop room tone, one clip-click, one switch-click, no speech or music. Preserve lamp geometry, hand count, mounting position and light direction. No brand text, extra lamps or unexplained cuts.
+```
+
+For Flash, a **short brief** and a **long structured brief** are both worth testing: the deciding factor is whether every sentence controls a visible or audible decision. Record the selected mode, duration, references and outcome before calling a recipe “tested.”
 
 ## What makes a strong Kling video prompt?
 
@@ -177,7 +216,7 @@ The project now has guides in **15 languages**:
 
 The canonical prompt files remain in English so complex timings and camera instructions do not silently diverge. Localized guides provide a translated quick template, model-status warning, FLAQ.AI overview and stable links to the same prompt IDs. See the [language matrix and localization rules](docs/LANGUAGES.md).
 
-> Documentation language ≠ native speech support. The verified Kling 3.0 native-dialogue list contains Chinese, English, Japanese, Korean and Spanish. For other spoken languages, test the live model or add reviewed voice-over in post-production.
+> Documentation language ≠ native speech support. The verified Kling 3.0 native-dialogue list contains Chinese, English, Japanese, Korean and Spanish. Kling AI announced broader multilingual and accent support for full 4.0; check the selected mode and review generated speech before publishing.
 
 ## Image-to-video checklist
 
@@ -212,15 +251,17 @@ Yes. This project provides 15-language quick-start guidance. Verified Kling 3.0 
 
 The repository is released under the [MIT License](LICENSE). Generated output can still involve separate rights for people, voices, music, trademarks, source images, locations, claims and the model platform used.
 
-### Is Kling 4.0 available now?
+### Is Kling 4.0 available now, and can it generate 30 seconds?
 
-No official Kuaishou announcement or API specification was found as of 2026-09-01. The latest verified major release is Kling AI 3.0. This repository is prepared for a future official 4.0 release without presenting predictions as facts.
+**Kling 4.0 Flash is in early access** for Ultra Yearly subscribers as of 28 September 2026. Kling AI plans the full 4.0 model and API access for October, without an exact launch day. Its **30-second maximum is an announced single-generation capability of the full model**. Do not assume it is available in Flash or through every provider today. The existing 52 recipes are 5–15 seconds and can be expanded into longer timelines after the full model's controls are available.
 
 ## Sources, originality and responsible use
 
 - [Official Kling AI 3.0 announcement](https://ir.kuaishou.com/news-releases/news-release-details/kling-ai-launches-30-model-ushering-era-where-everyone-can-be)
 - [Official Kling Video 3.0 user guide](https://app.klingai.com/cn/quickstart/klingai-video-3-model-user-guide)
 - [Kuaishou Q2 2026 update announcing Kling 3.0 native 4K rollout](https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-second-quarter-and-interim-2026)
+- [Official Kling AI 4.0 announcement and Flash availability](https://sg.linkedin.com/company/kling-ai-api)
+- [Kling 4.0 release notes](https://kling.ai/release-note/release-notes/Kling_4?type=dialog)
 - [Original image prompt and provenance notes](assets/images/README.md)
 - [Curation, inspiration and originality policy](docs/CURATION.md)
 - [FLAQ.AI model and API workflow](docs/FLAQ-AI.md)
@@ -235,9 +276,10 @@ All prompts, scenarios, descriptions and local images in this repository were ne
 |---|---|---|
 | Concept, script or shot list | [Kling 3.0 Standard Text-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-text-to-video/) | Concept films, social hooks, narrative shots and previsualization |
 | Product image, portrait, illustration or first frame | [Kling 3.0 Standard Image-to-Video](https://flaq.ai/models/kuaishou/kling-3-0-std-image-to-video/) | Product animation, identity-led portraits and controlled composition |
+| Plan a future full 4.0 workflow | [Kling 4.0 Text-to-Video](https://flaq.ai/models/kuaishou/kling-4-0-text-to-video/) · [Image-to-Video](https://flaq.ai/models/kuaishou/kling-4-0-image-to-video/) | Coming Soon pages; not live generation or a published API schema |
 | Repeatable application or automation | [FLAQ.AI API documentation](https://flaq.ai/docs/) | Creative tools, batch workflows and production integrations |
 
-FLAQ.AI currently lists Kling 3.0 workflows; this repository does **not** claim Kling 4.0 availability there. Live model names, controls, pricing, duration, resolution and API schemas can change, so check the current page before production. See [Creating Kling Videos with FLAQ.AI](docs/FLAQ-AI.md) for a transparent workflow and rights checklist.
+FLAQ.AI lists Kling 4.0 text-to-video and image-to-video as **Coming Soon**. Kling's own Flash early access does not mean FLAQ.AI's 4.0 API is live. Check the model page for generation availability, settings and API parameters before production. See [Creating Kling Videos with FLAQ.AI](docs/FLAQ-AI.md) for the current workflow.
 
 ## Contributing
 

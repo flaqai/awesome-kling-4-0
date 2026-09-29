@@ -6,6 +6,8 @@ This repository provides navigation and quick-start guidance in **15 languages**
 
 > **Verified Kling Video 3.0 native-dialogue languages:** Chinese, English, Japanese, Korean and Spanish. Other languages below are documentation/localization languages. For unsupported spoken dialogue, test the live model first or generate clean visuals and add verified voice-over in post-production.
 
+Kling AI has announced broader language, accent and dialect support for the full 4.0 release planned for October 2026. Kling 4.0 Flash is in limited early access; the table below remains a documented 3.0 baseline, not a claim about every 4.0 mode.
+
 ## 15-language directory
 
 | Language | Localized guide | Repository UI | Verified native dialogue baseline |
@@ -31,13 +33,15 @@ This repository provides navigation and quick-start guidance in **15 languages**
 | Content | English | Simplified Chinese | Other 13 languages |
 |---|---:|---:|---:|
 | Project positioning and model-status warning | Full | Full | Summary |
+| Kling 4.0 Flash/full-model capability boundary | Full | Full | Localized status and feature summary |
+| X demo links, creator-test caveat and original 15-second starter | Full | Full | All six examples and a fully localized starter |
 | Prompt catalog navigation | Full | Full | Linked |
 | Universal prompt structure | Full | Full | Localized quick template |
 | 52 production prompts | Canonical English source | Canonical source linked | Canonical source linked |
 | Native-audio examples | Five-language shared guide | Five-language shared guide | Shared guide with support warning |
 | FLAQ.AI introduction | Full | Full | Localized summary |
 
-The English prompt files are the canonical technical source. This prevents twenty-four complex shot plans from silently drifting across multiple translations. Localized guides explain the method and route readers to stable prompt IDs.
+The English prompt files are the canonical technical source. This prevents 52 complex shot plans from silently drifting across multiple translations. Localized guides explain the method and route readers to stable prompt IDs. Release-status facts, source links and the six X examples are synchronized across all 15 README languages as of 29 September 2026; the other 13 pages remain shorter guides rather than line-by-line copies of the full English README.
 
 ## Shared prompt labels
 
@@ -63,6 +67,7 @@ Use the same block order in any language. Models often handle clear labels bette
 6. Localize examples culturally; do not stereotype accents, clothing or behavior.
 7. Verify names, numbers, technical terms, packaging and subtitles independently.
 8. Add accessible captions in post-production when frame-to-frame text stability matters.
+9. When the English README changes a dated model claim or featured external case, update all localized status and case sections in the same pull request; preserve direct source links and the distinction between creator tests and official specifications.
 
 ## Template for any language
 

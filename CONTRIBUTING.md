@@ -82,7 +82,7 @@ Separate three categories clearly:
 2. **Observed in testing:** identify model, mode, date and settings; do not generalize one run into a guaranteed feature.
 3. **Expected / unverified:** do not place in capability tables; label plainly if discussion is still useful.
 
-Until Kuaishou officially announces Kling 4.0, do not describe any “4.0” specification as confirmed.
+Kling 4.0 Flash entered limited early access on 28 September 2026, while the full Kling 4.0 release and API access are planned for October. Attribute announced specifications to the correct version: the 30-second single-generation maximum is announced for the full model, not verified for Flash. Do not present planned controls, provider availability or API parameters as tested facts.
 
 ## Testing checklist
 
